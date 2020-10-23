@@ -16,15 +16,14 @@
 * [US Lung Cancer Morality 2008-2017](https://wonder.cdc.gov/controller/saved/D161/D94F276)
 
 
-## Proposal 2 - Are Longer Movies better?
+## Proposal 2 - Are Classic Books rated higher?
 
-I love a good story. I have always wondered if people are more likely to rate movies higher if they were longer. Were the plot and characters more developed? Did I feel like I had to rate it high because I invested more time in a longer movie? I would like to scrape the top 1000 highest rated movies on the Internet Movie Data Base (IMDB) and perform a t-test to determine if the longer movies (threshold(s) to be determined by the data) are indeed rated higher than shorter movies. Times of movies would be normally distributed. If time permits, I would also like to examine rankings by genre and release year.
+I love a good book. I would like to scrape the top books that everyone should read according to Goodreads. Are these books that Goodreads thinks I should read rated higher? My hypothesis would be that higher ranked books in the list are not rated higher on average than the lower ranked books. Additionally I would like to investigate these books based on their length and release date as well.
 
 * Features
     * Ranking
     * Rating
-    * Runtime
-    * Release year
-    * Genre
+    * Publication year
+    * Pages
 
-* [IMDB Top 1000](https://www.imdb.com/search/title/?groups=top_1000&sort=user_rating,desc&count=250&view=advanced)
+* [Goodreads Books Everyone Should Read](https://www.goodreads.com/list/show/264.Books_That_Everyone_Should_Read_At_Least_Once)
