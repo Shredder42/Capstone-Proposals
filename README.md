@@ -1,3 +1,21 @@
+# Capstone 2
+
+## Proposal 1 - Simpsons Episode Quality Predictor
+
+In my teenage years, I loved the television show The Simpsons. As I got older, I agree with most of the rest of the world that as the Simpsons aged, the show quality declined. However that doesn't diminish the quality of the show in its early years. Using a data set I found online, I would like to look at what made a higher quality Simpsons episode.
+
+Some of the features include:
+
+* IMDB rating, air date, title, number of viewers
+* Spoken dialogue by each character in the episode
+* Locations (settings) appearing in the episode
+
+
+* [The Simpsons by the Data](https://data.world/data-society/the-simpsons-by-the-data)
+
+Aditionally, depending on what I learn with NLP, if it is possible I would also like to look at how the dialogue relates to th episode quality as well. Were certian lines, jokes, or topics associated with episode rating?
+
+
 # Capstone 1
 
 ## Proposal 1 - Lung Cancer Mortality Across the United States
