@@ -4,6 +4,8 @@
 
 Cancer has always been a fascination of mine. I did my Master's Degree on disease free survival from Ductal Carcinoma in situ, a form of non-malignant breast cancer. I would love to continue working in a field of chronic or infectious diseases one day.  As such, I would like to take this [dataset](https://www.kaggle.com/paultimothymooney/breast-histopathology-images) of over 250,000 breast histopathology images, I would like to build a model that can detect images of invasive breast cancer.
 
+I believe this project would be both challenging but very rewarding for me as well
+
 ## Proposal 2 -  World Cup success predictor
 
 I am a HUGE international soccer fan and the World Cup is about as close as I can get to heaven. The data found [here](https://zenodo.org/record/1935382#.X6ydd65MFhEI) gives deep insight to player level performance during each world cup match. Therefore, I would like to do an analysis on the player performance during games and attempt to identify, at the player level, what determines success in a World Cup match. I would like to look at two outcomes:
