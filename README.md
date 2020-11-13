@@ -1,6 +1,6 @@
 # Capstone 2
 
-# Proposal 1 - Breast Cancer Identification
+## Proposal 1 - Breast Cancer Identification
 
 Cancer has always been a fascination of mine. I did my Master's Degree on disease free survival from Ductal Carcinoma in situ, a form of non-malignant breast cancer. I would love to continue working in a field of chronic or infectious diseases one day.  As such, I would like to take this [dataset](https://www.kaggle.com/paultimothymooney/breast-histopathology-images) of over 250,000 breast histopathology images, I would like to build a model that can detect images of invasive breast cancer.
 
@@ -27,8 +27,16 @@ A couple examples of the player level data:
 
 I intend to use the South Africa and Brazil World Cup data to create the models as that is more complete. The less complete Russia data may serve as a good test data set for predicting matches and tournament progression
 
+## Proposal 3 - More Breast Cancer Diagnostics
 
+Using data from the Breast Cancer Wisconsin Diagnostic Data set found [here](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29), I would like to build a model to predict malignant breast cancer diagnoses. Some features included are
 
+a) radius (mean of distances from center to points on the perimeter)
+b) texture (standard deviation of gray-scale values)
+c) perimeter
+d) area
+
+Other features of cell nucluei are included in the dataset, but only 10 or so I am not sure how we feel about that.
 
 
 # Capstone 1
