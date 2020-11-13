@@ -1,19 +1,8 @@
 # Capstone 2
 
-## Proposal 1 - Simpsons Episode Quality Predictor
+# Proposal 1 - Breast Cancer Identification
 
-In my teenage years, I loved the television show The Simpsons. As I got older, I agree with most of the rest of the world that as the Simpsons aged, the show quality declined. However that doesn't diminish the quality of the show in its early years. Using a data set I found online, I would like to look at what made a higher quality Simpsons episode.
-
-Some of the features include:
-
-* IMDB rating, air date, title, number of viewers
-* Spoken dialogue by each character in the episode
-* Locations (settings) appearing in the episode
-
-
-* [The Simpsons by the Data](https://data.world/data-society/the-simpsons-by-the-data)
-
-Aditionally, depending on what I learn with NLP, if it is possible I would also like to look at how the dialogue relates to th episode quality as well. Were certian lines, jokes, or topics associated with episode rating?
+Cancer has always been a fascination of mine. I did my Master's Degree on disease free survival from Ductal Carcinoma in situ, a form of non-malignant breast cancer. I would love to continue working in a field of chronic or infectious diseases one day.  As such, I would like to take this [dataset](https://www.kaggle.com/paultimothymooney/breast-histopathology-images) of over 250,000 breast histopathology images, I would like to build a model that can detect images of invasive breast cancer.
 
 ## Proposal 2 -  World Cup success predictor
 
@@ -35,6 +24,7 @@ A couple examples of the player level data:
     * E.g. if defenders are in the attacking third more often that's probably good while if attacking players are spending lots of time in their defensive zone that's probably a bad sign.
 
 I intend to use the South Africa and Brazil World Cup data to create the models as that is more complete. The less complete Russia data may serve as a good test data set for predicting matches and tournament progression
+
 
 
 
