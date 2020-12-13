@@ -34,6 +34,7 @@ The class variable is on a scale ranging from 1 to 9 for each class. Kaggle did 
 8. Likely change-of-function
 9. Change-of-function
 
+<hr>
 
 # Capstone 2
 
@@ -75,6 +76,7 @@ d) area
 
 Other features of cell nucluei are included in the dataset, but only 10 or so I am not sure how we feel about that.
 
+<hr>
 
 # Capstone 1
 
