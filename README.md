@@ -1,3 +1,40 @@
+# Capstone 3
+
+## Proposal 1 - Using NLP to determine the type of genetic variants in tumors
+
+Cancer is born from mutations in our DNA. DNA codes for proteins that perform specific tasks in our bodies. When DNA gets mutated, say from cigarette smoke or a sunburn, the protein produced by that strand of DNA may be altered, and thus become a variant (or mutation). The protein that is coded from that DNA may be altered as well, and there are several different potential classifications for these alterations. Luckily, the names of the alterations are fairly self-explanatory.
+
+* Gain-of-function - the protein gains a new ability that it did not previously have (this can cause cancer if the new function promotes rapid cell division and growth).
+* Loss-of-function - the protein loses it's ability to perform a function (we have proteins, like p53, whose job is to slow down cell division and if that function is lost, cancer is more likely to develop).
+* Switch-of-function - a protein may change what it does (similar possibilities as described above).
+* Neutral - the genetic code is degenerate, meaning there are multiple ways to code out similar proteins. Therefore, it is also possible for a variant to simply be neutral and not cause any issues at all.
+
+
+Even within the last 5 years, in order to classify an alteration in a gene (variant) a pathologist would have to choose a variant of interest, identify medical literature that is relevant to the variant of interest, and then study the evidence to classify the variation. This process is very time consuming. In order to speed up the process, Kaggle released a data set meant for designing a machine learning model that would analyze evidence and literature about a specific tumor gene alteration, and classify it into one of 9 types of alterations. I would like to use this data to create my own model to classify the genetic variants.
+
+The data set is located [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data). I will be using the training_text, training_variants, test_text, and test_variants data sets.
+
+The text data contains the ID and the literature evidence to be used to classify the variation
+
+The variants data features are:
+* ID
+* Gene
+* Variation
+* Class (target variable)
+
+The class variable is on a scale ranging from 1 to 9 for each class. Kaggle did not provide the breakdown of what each class is. To find this out, I went to the [OncoKB](https://www.oncokb.org/) website, which contains a library of the types of variations and can identify the class of each variant. By plugging some of the variants into the data base I was able to determine the following breakdown of the classes:
+
+1. Likely loss-of-function
+2. Likely gain-of-function
+3. Neutral
+4. Loss-of-function
+5. Likely neutral
+6. Inconclusive
+7. Gain-of-function
+8. Likely change-of-function
+9. Change-of-function
+
+
 # Capstone 2
 
 ## Proposal 1 - Breast Cancer Identification
